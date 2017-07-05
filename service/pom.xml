@@ -145,12 +145,7 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
-		</plugins>
-	</build>
-	
-	<build>
-    <plugins>
-            <plugin>
+			 <plugin>
             <artifactId>maven-compiler-plugin</artifactId>
             <version>3.1</version>
             <configuration>
@@ -158,8 +153,8 @@
                 <executable>C:\Program Files\Java\jdk1.8.0_121\bin\javac.exe</executable>
             </configuration>
         </plugin>
-    </plugins>
-</build>
+		</plugins>
+	</build>
 	
 	
     <reporting>
